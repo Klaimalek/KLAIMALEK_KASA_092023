@@ -1,0 +1,29 @@
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 30px 44px 0 64px;
+  position: relative;
+
+  width: 1240px;
+}
+.img-banner {
+  object-fit: cover;
+  height: 243px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  filter: brightness(0.75);
+}
+.text-banner {
+  display: grid;
+  place-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+  font-weight: 500;
+  font-size: 48px;
+  color: white;
+  inset: 0;
+}
