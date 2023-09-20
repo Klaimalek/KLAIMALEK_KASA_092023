@@ -1,0 +1,29 @@
+.collapse-content-header {
+  height: 50px;
+  display: flex;
+  background: #ff6060;
+  color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  margin-top: 50px;
+}
+.collapse-title {
+  font-size: 24px;
+}
+.fa-chevron-down {
+  font-size: 24px;
+}
+
+.collapse-content {
+  background: #f6f6f6;
+  border-radius: 10px, 10px, 5px, 5px;
+  margin-left: 203px;
+  margin-right: 203px;
+  color: #ff6060;
+  ;
+}
