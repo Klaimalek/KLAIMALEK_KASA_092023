@@ -13,7 +13,7 @@ function Collapse({ title, content }) {
       setToggle('none');
     }
   };
-  console.log(toggle);
+
   return (
     <div className="container-collaspe">
       <div className="collapse-content-header">
