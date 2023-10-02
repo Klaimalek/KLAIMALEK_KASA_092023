@@ -35,7 +35,8 @@ function Accommodation() {
       <div className="pictures-carousel"></div>
       <div className="accommodation.title">
         <div className="accommodation.location"></div>
-       <Tag tags={tags} /> 
+        <div className='accomodation-tag'><Tag tags={tags} /> </div>
+    
       </div>
       
       <div className="collapse-page-accommodation">

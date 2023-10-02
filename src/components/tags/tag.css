@@ -1,0 +1,19 @@
+.tags-list {
+  border: 2px solid;
+  display: flex;
+  list-style: none;
+  color: white;
+  width: 100%;
+  justify-content: flex-start;
+  margin: 20px 0px 10px 50px  ;
+}
+.elt-tag {
+  margin: 20px;
+  background: #ff6060;
+  width: auto;
+  max-width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px 15px;
+}
