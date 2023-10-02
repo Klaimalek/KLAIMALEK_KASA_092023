@@ -7,6 +7,7 @@ import { Navigate, useParams } from 'react-router-dom';
 
 import './accommodation.css';
 import Description from '../../components/description/Description';
+import Carousel from '../../components/carousel/Carousel';
 
 function Accommodation() {
   /**Récupération de l'id de l'accommodation depuis les paramètres de l'url grace au useParams */
@@ -22,9 +23,10 @@ function Accommodation() {
   );
 
   /**récupération les données necessaire pour afficher la page d'apartement */
+  const pictures = acommodationDetailSingle[0].pictures
   const description = acommodationDetailSingle[0].description;
   const equipments = acommodationDetailSingle[0].equipments;
-  const tags= acommodationDetailSingle[0].tags;
+  const tags = acommodationDetailSingle[0].tags;
   const locations = acommodationDetailSingle[0].location;
   const titles = acommodationDetailSingle[0].title;
   const hosts = acommodationDetailSingle[0].host;
@@ -37,21 +39,19 @@ function Accommodation() {
   return (
     <div className="container-accommoadtion">
       <Navbar />
-      <div className="pictures-carousel"></div>
-      <div className="accommodation.title">
-      
+      <div className="pictures-carousel">
+      <Carousel pictures ={pictures}/>
       </div>
-       <Description 
-       title={titles}
-       location ={locations}
-       tags ={tags} 
-       host ={hosts}
-       rate = {rates}/>
-      
-      <div className="collapse-page-accommodation">
-        <Collapse title={'Description'} content={description} />
-        <Collapse title={'Équipements'} content={equipments} />
-      </div>
+      <div className="accommodation.title"></div>
+      <Description
+        description={description}
+        equipments={equipments}
+        title={titles}
+        location={locations}
+        tags={tags}
+        host={hosts}
+        rate={rates}
+      />
 
       <Footer />
     </div>

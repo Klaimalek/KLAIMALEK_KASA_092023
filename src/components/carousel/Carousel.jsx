@@ -4,6 +4,7 @@ import { useParams, Navigate } from 'react-router-dom';
 import Data from '../../data/Data.json';
 import vectorLeft from '../../assets/vectorLeft.png';
 import vectorRight from '../../assets/vectorRight.png';
+import './carousel.css'
 function Carousel(data) {
   let { picture, title } = data;
   const [current, setCurrent] = useState(0);

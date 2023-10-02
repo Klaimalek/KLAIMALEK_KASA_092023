@@ -1,17 +1,28 @@
+.description-apartment{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+
 .aprtment-information{
 
     display: flex;
-    flex-direction: column;
-   align-items: flex-start;
+   justify-content: space-between;
+ 
     margin:  50px 0px 0px 70px;
     color: #ff6060;
 }
 .location-apartment{
     margin-top: 20px;
     font-size: 20px;
+ 
 }
-.description-apartment{
-    display: flex;
-    justify-content: space-between;
 
+.collapse-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2%;
+    list-style-type: none;
 }

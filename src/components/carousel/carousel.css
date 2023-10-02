@@ -1,0 +1,39 @@
+.slides{
+ 
+    text-align: center;
+}
+.imageSlide{
+ 
+    position: relative;
+    display: flex;
+    height: 415px;
+    border-radius: 25px;
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    margin: 43px auto;
+}
+    
+
+.show{
+    position: relative;
+    text-align: center;
+
+
+}
+.arrow-left{
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    height: 15%;
+  
+    cursor: pointer;
+}
+.arrow-right{
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    height: 15%;
+   
+    cursor: pointer;
+}
