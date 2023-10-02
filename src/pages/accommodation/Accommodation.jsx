@@ -27,7 +27,8 @@ function Accommodation() {
   const tags= acommodationDetailSingle[0].tags;
   const locations = acommodationDetailSingle[0].location;
   const titles = acommodationDetailSingle[0].title;
-  const hosts = acommodationDetailSingle[0].host
+  const hosts = acommodationDetailSingle[0].host;
+  const rates = acommodationDetailSingle[0].rating;
   /** vérification si le tableau accomoodationDetailSingle est vide donc on redirige l"utilisateur vers la page notFond */
   if (acommodationDetailSingle.length === 0) {
     return <Navigate to="/notfind" replace />;
@@ -44,8 +45,9 @@ function Accommodation() {
        title={titles}
        location ={locations}
        tags ={tags} 
-       host ={hosts}/>
-       
+       host ={hosts}
+       rate = {rates}/>
+      
       <div className="collapse-page-accommodation">
         <Collapse title={'Description'} content={description} />
         <Collapse title={'Équipements'} content={equipments} />

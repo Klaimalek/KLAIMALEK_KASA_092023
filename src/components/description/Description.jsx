@@ -2,7 +2,8 @@ import React from 'react';
 import Tag from '../tags/Tag';
 import './description.css'
 import Host from '../host/Host';
-function Description({ tags, location, title, host }) {
+import Rate from '../rating/Rate';
+function Description({ tags, location, title, host, rate }) {
   return (
     <div className="description-apartment">
       <div className='aprtment-information'>
@@ -12,6 +13,7 @@ function Description({ tags, location, title, host }) {
       </div>
       <div className='host-content'>
        <Host host={host}/> 
+       <Rate rate={rate}/>
       </div>
     </div>
   );

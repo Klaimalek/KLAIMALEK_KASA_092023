@@ -4,14 +4,16 @@
     align-items: flex-end;
     margin-top: 20px;
     padding-right: 90px;
+
+    
 }
 .picture-host .img{
  border-radius: 50%;
 }
 .name-host{
 color: #ff6060;
-padding-right: 10px;
 font-size: 18px;
 font-weight: 500px;
 padding-top: 10px;
+text-align: center;
 }
