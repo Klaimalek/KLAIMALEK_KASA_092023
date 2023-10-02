@@ -26,8 +26,10 @@ function Carousel(data) {
 {accommodationData &&
     accommodationData.map((location, index, id) => (
         <div className = "show" key={`${index}-${location.id}`}>
+
             <div className="slides">
                 {location.pictures.map((picture, index) => (
+                  
                 <div className={index === current ? "slide active" : "slide"} key={index}>
                     {index === current && (
                         <img className="imageSlide"

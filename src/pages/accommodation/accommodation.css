@@ -1,0 +1,11 @@
+.collapse-page-accommodation{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+   
+    
+}
+.collapse-content{
+   
+    margin-inline-start: 106px;
+    margin-inline-end: 106px;
+}
