@@ -21,7 +21,7 @@ function Description({
           <p className="location-apartment">{location}</p>
           <Tag tags={tags} />
         </div>
-        <div class="host-content">
+        <div className="host-content">
           <Host host={host} />
           <Rate rate={rate} />
         </div>
