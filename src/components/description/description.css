@@ -22,8 +22,11 @@
 
 .collapse-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 2%;
-    list-style-type: none;
+    grid-template-columns: 500px repeat(auto-fill, 500px) 100px;
+   
+
     background-color: transparent;
+    margin: 0px;
+    
+    
 }
