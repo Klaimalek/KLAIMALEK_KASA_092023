@@ -1,14 +1,12 @@
 .cards {
   background: #f6f6f6;
-
   border-radius: 25px;
-  margin: 30px 44px 0 64px;
   display: grid;
   grid-template-columns: repeat(3, 340px);
   grid-gap: 40px;
   justify-items: center;
   place-content: center;
-  padding: 40px;
+
   
 
 }
@@ -16,8 +14,8 @@
 @media screen and (max-width: 650px) {
   .cards{
     grid-template-columns: 1fr;
-    padding: 0px;
+
     background:transparent;
-    gap :20px;
+    padding: 20px 39px 0 58px;
   }
 }
