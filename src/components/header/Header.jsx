@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../navBar/NavBar';
 import Banner from '../banner/Banner';
 import banner from '../../assets/banner.png';
+import './header.css';
 function Header() {
   return (
     <div className="header-kasa">

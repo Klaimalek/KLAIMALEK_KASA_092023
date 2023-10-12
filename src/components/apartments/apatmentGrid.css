@@ -1,6 +1,6 @@
 .cards {
   background: #f6f6f6;
-  width: 1240px;
+
   border-radius: 25px;
   margin: 30px 44px 0 64px;
   display: grid;
@@ -9,5 +9,15 @@
   justify-items: center;
   place-content: center;
   padding: 40px;
+  
+
 }
 
+@media screen and (max-width: 650px) {
+  .cards{
+    grid-template-columns: 1fr;
+    padding: 0px;
+    background:transparent;
+    gap :20px;
+  }
+}

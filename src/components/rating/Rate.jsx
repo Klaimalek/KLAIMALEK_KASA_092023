@@ -8,7 +8,7 @@ function Rate() {
   const idLogment = useParams('id').id;
 
   const logementSingle = Data.filter((detail) => detail.id === idLogment);
-
+  
   if (logementSingle === []) {
     return <Navigate to="*" />;
   }
@@ -17,27 +17,27 @@ function Rate() {
   return (
     <div className="rating">
     
-      {logementSingle.map((star, index) =>
+      {
      
-        stars.map((stars) =>
-       
-          stars.rating <= - 1 ? (
+        stars.map((star) => 
+        
+          star >= parseInt(logementSingle[0].rating) ? (
             <img
               src={starGrey}
               alt="grey-star"
-              key={`${index}-${stars}`}
+              key={`${star}`}
               className="star"
             />
           ) : (
             <img
               src={starRed}
               alt="red-star"
-              key={`${index}-${stars}`}
+              key={`${star}`}
               className="star"
             />
           )
-        )
-      )}
+          )
+      }
     </div>
   );
 }

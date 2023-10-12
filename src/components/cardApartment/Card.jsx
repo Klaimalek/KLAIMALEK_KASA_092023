@@ -8,10 +8,12 @@ function Card({ data }) {
   return (
     <article className="card">
       <Link to={`accommodation/${id}`} className="card-link">
-        <img className="img-card" src={cover} alt={title} />
-        <div className="card-title">
-          <h2>{title || <Skeleton count={1} />}</h2>
-        </div>
+        <div className="card__overly " >    </div>
+          
+            <img className="img-card" src={cover} alt={title} />
+            <h2 className='card-title'>{title || <Skeleton count={1} />}</h2>
+          
+      
       </Link>
     </article>
   );
