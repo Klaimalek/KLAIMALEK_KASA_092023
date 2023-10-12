@@ -7,10 +7,16 @@
 }
 .number-404-message {
   font-size: x-large;
+
+
 }
 .number-404 {
   font-weight: 700;
   font-size: 288px;
+
+}
+.message-erreur{
+ white-space: normal;
 }
 .lien {
   display: flex;
@@ -18,4 +24,22 @@
   margin-top: 50px;
   font-size: large;
   margin-bottom: 35px;
+}
+
+@media screen and (max-width: 650px)  {
+  .page-erreur{
+    margin-top: 100px;
+  }
+
+
+  .number-404 {
+  margin-bottom: 70px;
+    font-size: 88px;
+  }
+  
+  .lien {
+    margin-top: 100px;
+
+
+  }
 }

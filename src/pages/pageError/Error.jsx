@@ -2,6 +2,7 @@ import React from 'react';
 import'./error.css';
 import { Link } from "react-router-dom";
 import Navbar from '../../components/navBar/NavBar';
+import Footer from '../../components/footer/Footer';
 function Error() {
   return (
     <div >
@@ -18,6 +19,7 @@ function Error() {
               <div className="text"> Retourner sur la page d’accueil</div>
           </Link>
         </div>
+       <Footer/> 
     </div>
   );
 }
