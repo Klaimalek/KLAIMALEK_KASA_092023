@@ -1,32 +1,71 @@
-.description-apartment{
-    display: flex;
-    justify-content: space-between;
+.description-apartment {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.aprtment-information {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+
+  color: #ff6060;
+  width: 100%;
+}
+.location-apartment {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.informations {
+  width: 63%;
+}
+.host-content {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  
+}
+.collapse-content-collapse {
+ padding-left: 5%;
+padding-right: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.collapse {
+  width: 45%;
+}
+@media screen and (max-width: 600px) {
+  .aprtment-information {
+    flex-direction: column;
+  }
+  .collapse-content-collapse {
     flex-direction: column;
 
-}
-
-
-.aprtment-information{
-
-    display: flex;
-   justify-content: space-between;
- 
-    margin:  50px 0px 0px 70px;
-    color: #ff6060;
-}
-.location-apartment{
+  }
+  .collapse {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .informations {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
     margin-top: 20px;
-    font-size: 20px;
- 
-}
-
-.collapse-content {
-    display: grid;
-    grid-template-columns: 500px repeat(auto-fill, 500px) 100px;
+  }
+  .host-content {
+    width: 100%;
    
-
-    background-color: transparent;
-    margin: 0px;
-    
-    
+    flex-direction: row-reverse;
+   
+    height: 100px;
+  }
+  .title-aprtment {
+    font-weight: 400;
+    width: 70%;
+    font-size: 18px;
+    width: 100%;
+  }
 }

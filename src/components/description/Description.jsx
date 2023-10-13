@@ -27,9 +27,13 @@ function Description({
         </div>
       </div>
 
-      <div className="collapse-content">
-        <Collapse title={'Description'} content={description} />
-        <Collapse title={'Équipements'} content={equipments} />
+      <div className="collapse-content-collapse">
+        <div className='collapse'>
+          <Collapse title={'Description'} content={description} />
+        </div>
+        <div className='collapse'>
+          <Collapse title={'Équipements'} content={equipments} />
+        </div>
       </div>
     </div>
   );

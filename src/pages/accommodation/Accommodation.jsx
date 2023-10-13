@@ -3,7 +3,7 @@ import Navbar from '../../components/navBar/NavBar';
 import Footer from '../../components/footer/Footer';
 import Data from '../../data/Data.json';
 import { Navigate, useParams } from 'react-router-dom';
-
+import'./accommodation.css'
 import './accommodation.css';
 import Description from '../../components/description/Description';
 import Carousel from '../../components/carousel/Carousel';

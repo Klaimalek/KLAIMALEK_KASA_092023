@@ -1,19 +1,30 @@
 .tags-list {
   border: 2px solid;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   list-style: none;
   color: white;
   width: 100%;
-  justify-content: flex-start;
-  margin: 20px 0px 10px -20px  ;
+  margin-top: 20px;
+
 }
 .elt-tag {
-  margin: 20px;
   background: #ff6060;
-  width: auto;
-  max-width: 200px;
+  width: 30%;
   height: 30px;
   border-radius: 10px;
   text-align: center;
-  padding: 5px 15px;
+  padding: 5px 5px;
+  
+}
+@media screen and (max-width: 600px) {
+  .accommodation-tag {
+    width: 100%;
+  }
+  .tags-list {
+
+  }
+  .elt-tag {
+  }
 }
