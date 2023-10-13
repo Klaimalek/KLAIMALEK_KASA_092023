@@ -21,8 +21,8 @@ function Collapse({ title, content }) {
 
         <div onClick={toggleState}  className='collapse-arrow'>
           {toggle ==='none' ?
-          (<img src={arrow} alt="Arrow down"/>) :
-          (<img src={arrow} style={{transform: "rotate(180deg)"}} alt="Arrow up" />)}
+          (<img src={arrow}  style={{transform: "rotate(180deg)"}} alt="Arrow down"/>) :
+          (<img src={arrow} alt="Arrow up" />)}
         </div>
       </div>
 

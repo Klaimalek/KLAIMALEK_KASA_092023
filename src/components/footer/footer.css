@@ -1,6 +1,6 @@
 .footer{
     background-color: #000000;
- margin-top: 20px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -8,6 +8,7 @@
     text-align: center;
     width: 100%;
     padding-top: 30px;
+    height: 250px;
 }
 .footer_copyright{
     color: #ffffff;
@@ -18,6 +19,14 @@
 
 @media screen and (max-width: 600px) {
     .footer{
-        height: 209px;
+        height: 200px;
+       margin-top: 50px;
+    
     }
  }
+ @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .footer{
+        height: 260px;
+       margin-top: 200px;
+    
+    }}

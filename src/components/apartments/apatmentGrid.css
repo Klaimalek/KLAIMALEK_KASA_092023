@@ -3,18 +3,31 @@
   border-radius: 25px;
   display: grid;
   grid-template-columns: repeat(3, 340px);
-  grid-gap: 40px;
-  justify-items: center;
+  grid-gap: 80px;
   place-content: center;
-
-  
-
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-@media screen and (max-width: 650px) {
-  .cards{
+@media screen and (max-width: 768px) {
+  .cards {
     grid-template-columns: 1fr;
-    background:transparent;
-  padding-left: 50px;
-  padding-right: 50px;
-}}
+    background: transparent;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    grid-gap: 40px;
+  }
+}
+@media  screen and (min-width : 768px) and (max-width : 1400px) {
+  .cards {
+   
+
+  grid-template-columns: repeat(2, 340px);
+  grid-gap: 40px;
+  place-content: center;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  }
+}

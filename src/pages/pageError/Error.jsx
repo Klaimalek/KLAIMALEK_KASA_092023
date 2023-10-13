@@ -6,7 +6,7 @@ import Footer from '../../components/footer/Footer';
 function Error() {
   return (
     <div >
-    <Navbar/>
+    <div className='nabvar-page-error'><Navbar/></div>
         <div className="page-erreur">
          
           <div className="number-404-message">
