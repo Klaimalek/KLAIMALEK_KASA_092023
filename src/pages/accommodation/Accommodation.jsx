@@ -54,10 +54,8 @@ function Accommodation() {
         host={hosts}
         rate={rates}
       />
-
-      <footer className='footer-accomodation'>
         <Footer />
-      </footer>
+    
     </div>
   );
 }
