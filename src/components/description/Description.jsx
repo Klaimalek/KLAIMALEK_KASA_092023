@@ -13,6 +13,7 @@ function Description({
   description,
   equipments,
 }) {
+
   return (
     <div className="description-apartment">
       <div className="aprtment-information">

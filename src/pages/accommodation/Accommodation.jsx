@@ -25,6 +25,9 @@ function Accommodation() {
   const pictures = acommodationDetailSingle[0].pictures
   const description = acommodationDetailSingle[0].description;
   const equipments = acommodationDetailSingle[0].equipments;
+ /** afficher le contenu du tableau equipement */
+  /*const equipment= equipments.map((equipment) =>( console.log(equipment)));*/
+  
   const tags = acommodationDetailSingle[0].tags;
   const locations = acommodationDetailSingle[0].location;
   const titles = acommodationDetailSingle[0].title;
