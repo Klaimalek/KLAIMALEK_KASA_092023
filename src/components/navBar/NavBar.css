@@ -28,8 +28,13 @@
 .lien-navbar {
   color: #ff6060;
   text-decoration: none;
+  &:active{
+    border-bottom:1px solid #ff6060 ;
+    
+  }
 
 }
+
 
 @media screen and (max-width: 650px)  {
 .list-navbar{

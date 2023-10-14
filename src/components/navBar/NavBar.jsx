@@ -9,8 +9,8 @@ function Navbar() {
         <img className='logo' src={logo} alt="Logo de Kasa" />
       </div>
       <ul className="list-navbar">
-        <Link to='/home' className='lien-navbar'>
-            <li className='element-list'> Acceuil</li>
+        <Link to='/' className='lien-navbar'>
+            <li className='element-list-item1'> Acceuil</li>
         </Link>
         <Link to='/about' className='lien-navbar'>
             <li className='element-list'> A Propos</li>

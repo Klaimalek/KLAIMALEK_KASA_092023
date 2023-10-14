@@ -2,7 +2,7 @@
   border: 2px solid;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+
   list-style: none;
   color: white;
   width: 100%;
@@ -11,7 +11,8 @@
 }
 .elt-tag {
   background: #ff6060;
-  width: 30%;
+  margin-right: 2%;
+  margin-bottom: 10px;
   height: 30px;
   border-radius: 10px;
   text-align: center;

@@ -1,6 +1,6 @@
 .host {
   display: flex;
-  flex-direction: column;
+flex-direction: row-reverse;
   align-items: center;
 }
 .picture-host .img {
@@ -8,9 +8,8 @@
 }
 .name-host {
   color: #ff6060;
-  font-size: 18px;
-  font-weight: 500px;
-  padding-top: 10px;
+  font-size: 20px;
+  padding: 10px 10px 0px 0px ;
   text-align: center;
 }
 
