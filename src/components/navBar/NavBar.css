@@ -21,26 +21,25 @@
   justify-content: space-evenly;
   list-style: none;
   gap: 60px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
 }
 
 .lien-navbar {
   color: #ff6060;
   text-decoration: none;
-  &:active{
-    border-bottom:1px solid #ff6060 ;
-    
-  }
+ 
 
 }
-
-
+.lien-navbar :hover{
+  text-decoration: underline;
+}
 @media screen and (max-width: 650px)  {
 .list-navbar{
   font-size: 15px;
-  gap: 20px;
+  gap: 12px;
   margin-right: 5%;
+  text-transform: uppercase;
 }
 .logo {
   width: 125px;
