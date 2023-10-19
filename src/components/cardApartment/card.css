@@ -29,3 +29,8 @@
          
         
 }
+@media  screen and (min-width : 767px) and (max-width : 991px) and (orientation : portrait) {
+    .card{
+        width: 43%;
+    }
+}

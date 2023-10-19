@@ -34,7 +34,7 @@
 .lien-navbar :hover{
   text-decoration: underline;
 }
-@media screen and (max-width: 650px)  {
+@media screen and (max-width: 768px)  {
 .list-navbar{
   font-size: 15px;
   gap: 12px;

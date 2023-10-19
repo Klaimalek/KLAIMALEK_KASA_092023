@@ -1,14 +1,13 @@
+.container-about{
+  padding-left: 5%;
+  padding-right: 5%;
+}
 .collapse-about {
   margin-bottom: 30px;
   margin-top: 30px;
 }
-@media screen and (max-width: 650px) {
-  .container-about {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-}
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+@media  (min-width : 651px) and (max-width : 1200px)  {
     .container-about {
     padding-left: 5%;
     padding-right: 5%;

@@ -3,11 +3,13 @@
   border-radius: 25px;
   display: grid;
   grid-template-columns: repeat(3, 340px);
-  grid-gap: 80px;
+  grid-gap: 40px;
   place-content: center;
   width: 100%;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -19,15 +21,12 @@
     grid-gap: 40px;
   }
 }
-@media  screen and (min-width : 768px) and (max-width : 1400px) {
-  .cards {
-   
 
-  grid-template-columns: repeat(2, 340px);
-  grid-gap: 40px;
-  place-content: center;
-  width: 100%;
-  padding-top: 40px;
-  padding-bottom: 40px;
+@media  screen and (min-width : 767px) and (max-width : 991px) and (orientation : portrait) {
+  .cards{
+   
+    display: flex;
+    flex-wrap: wrap;
+  
   }
-}
+  }
