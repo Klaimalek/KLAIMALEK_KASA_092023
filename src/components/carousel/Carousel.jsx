@@ -11,17 +11,16 @@ function Carousel(data) {
   const urlParams = useParams();
   const logmentData = Data.filter((data) => data.id === urlParams.id); // pour afficher les données selon l'id
   const pictures = logmentData[0].pictures;
- 
+
   const title = logmentData[0].title;
 
   /**   // pour récupérer la longeur du tableau des images pour chaque logement */
-  
+
   const arrayPicturesLenght = logmentData.map(
     (images) => images.pictures.length
   );
 
   const actualPicture = pictures[current];
-
 
   /** afficher la page d'erreur */
   if (logmentData === []) {
@@ -40,31 +39,37 @@ function Carousel(data) {
     setCurrent(current === 0 ? arrayPicturesLenght - 1 : current - 1);
   }
 
-
-
-  return (
-    <div className="carousel">
-      <img src={ actualPicture} alt={title} className='pictures-carousel' />
-      <div className="slides">
-      <img
-          onClick={nextPicture}
+  function arrowDisplay() {
+    if (arrayPicturesLenght  >= 2) {
+      return(
+        <div className="slides">
+        <img
           className="arrow arrow-right"
           src={vectorRight}
           alt="arrow right"
+          onClick={nextPicture}
         />
         <p className="counter">
-        {current + 1}/{arrayPicturesLenght}
-      </p>
-      <img
-          onClick={previousPicture}
-          className="arrow arrow-left"
-          src={vectorLeft}
-          alt="arrow left"
-        />
+          {current + 1}/{arrayPicturesLenght}
+        </p>
+        <img  onClick={previousPicture}
+        className="arrow arrow-left"
+        src={vectorLeft}
+        alt="arrow left"/>
+
+        <div className="carouselCounter"></div>
       </div>
+      );
+  
+    }
+  };
+
+  return (
+    <div className="carousel">
+      <img src={actualPicture} alt={title} className="pictures-carousel" />
+      {arrowDisplay()}
     </div>
   );
- 
 }
 
 export default Carousel;
