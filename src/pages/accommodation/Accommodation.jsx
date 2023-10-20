@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../../components/navBar/NavBar';
 import Footer from '../../components/footer/Footer';
 import Data from '../../data/Data.json';
-import { Navigate, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import Error from '../pageError/Error';
 import'./accommodation.css'
 
