@@ -6,11 +6,12 @@
   height: 68px;
   margin-top: 20px;
   margin-bottom: 20px;
+
 }
 .logo-navbar {
   display: flex;
   justify-self: start;
-  border: 3px red;
+
   
 }
 
@@ -38,10 +39,11 @@
 .list-navbar{
   font-size: 15px;
   gap: 12px;
-  margin-right: 5%;
+  
   text-transform: uppercase;
 }
 .logo {
   width: 125px;
+  
 }
 }

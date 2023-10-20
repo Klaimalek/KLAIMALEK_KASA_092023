@@ -9,23 +9,23 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Home />}>
+        <Route path="/" element={<Home />} errorElement={<Error/>}>
           {' '}
         </Route>
-        <Route path="/home" element={<Home />}>
+        <Route path="/home" element={<Home />} errorElement={<Error/>}>
           {' '}
         </Route>
-        <Route path="/about" element={<About />}>
+        <Route path="/about" element={<About />} errorElement={<Error/>}>
           {' '}
         </Route>
-        <Route path="/notfind" element={<Error />}>
+        <Route path="/notfind" element={<Error />} errorElement={<Error/>}>
           {' '}
         </Route>
-        <Route path="/accommodation/:id" element={<Accommodation />}>
+        <Route path="/accommodation/:id" element={<Accommodation />} errorElement={<Error/>}>
           {' '}
         </Route>
         {/* Pour chaque route inexistante on redirige vers la route "/404" qui contient la page 404 */}
-        <Route path="*" element={<Navigate to="/notfind" replace />} />
+       <Route path="*" element={<Navigate to="/notfind" replace />} />
       </Routes>
     </div>
   );

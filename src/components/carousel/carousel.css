@@ -38,11 +38,10 @@
   color: hsl(0, 0%, 100%);
   font-size: 18px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .carousel {
     height: 255px;
-    padding-left: 5%;
-    padding-right: 5%;
+  
   }
   .slides {
     .arrow {

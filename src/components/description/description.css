@@ -35,7 +35,7 @@
 .collapse {
   width: 45%;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .aprtment-information {
     flex-direction: column;
   }
@@ -49,9 +49,9 @@
   }
   .informations {
     width: 100%;
-    padding-left: 5%;
-    padding-right: 5%;
+;
     margin-top: 20px;
+    
   }
   .host-content {
     width: 100%;
@@ -65,7 +65,7 @@
     width: 100%;
   }
 }
-@media  screen and (min-width : 768px) and (max-width : 1400px) {
+@media  screen and (min-width : 768px) and (max-width : 1023px) {
   .description-apartment{
     margin-top: 50px;
     margin-bottom: 50px;

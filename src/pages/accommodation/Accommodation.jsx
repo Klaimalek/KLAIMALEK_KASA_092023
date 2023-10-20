@@ -13,6 +13,8 @@ function Accommodation() {
 
   const idAccommodation = useParams('id').id;
 
+ 
+   
   /** on parcourt les data en comparant l'id récupérer de url avec id qui se trouve dans les dats
    * si les deux id sont identique  on retourne les informations qui correspondant à l'id
    */
@@ -20,9 +22,10 @@ function Accommodation() {
   const acommodationDetailSingle = Data.filter(
     (detail) => detail.id === idAccommodation
   );
-
+   
   /**récupération les données necessaire pour afficher la page d'apartement */
   const pictures = acommodationDetailSingle[0].pictures
+  
   const description = acommodationDetailSingle[0].description;
   const equipments = acommodationDetailSingle[0].equipments;
  /** afficher le contenu du tableau equipement */
@@ -37,7 +40,11 @@ function Accommodation() {
   if (acommodationDetailSingle.length === 0) {
     return <Navigate to="/notfind" replace />;
   }
-
+  /**
+   *  if(idAccommodation === undefined){
+return <Navigate to="/notfind" replace />;
+  }
+   */
   return (
     <div className="container-accommoadtion">
       <Navbar />
