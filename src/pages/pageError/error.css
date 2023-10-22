@@ -4,7 +4,9 @@
   align-items: center;
   text-align: center;
   color: rgba(255, 96, 96, 1);
-  
+}
+.nabvar-page-error{
+  padding-right: 5%;
 }
 .number-404-message {
   font-size: x-large;
