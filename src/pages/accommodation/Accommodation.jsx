@@ -5,7 +5,7 @@ import Data from '../../data/Data.json';
 import { useParams } from 'react-router-dom';
 import Error from '../pageError/Error';
 import'./accommodation.css'
-
+import Collapse from '../../components/collapses/Collapse';
 import Description from '../../components/description/Description';
 import Carousel from '../../components/carousel/Carousel';
 
@@ -63,6 +63,14 @@ return (<Error/>);
         host={hosts}
         rate={rates}
       />
+      <div className="collapse-content-collapse">
+        <div className='collapse'>
+          <Collapse title={'Description'} content={description} />
+        </div>
+        <div className='collapse'>
+          <Collapse title={'Équipements'} content={equipments} />
+        </div>
+      </div>
         <Footer />
     
     </div>
