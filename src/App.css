@@ -1,16 +1,17 @@
 * {
   
-    box-sizing: border-box;
+    
     font-family: 'Anton', sans-serif;
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
+  
+    
 }
 body {
-  max-width: 1400px;
+  margin: 0;
+ /* max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
   max-width: 1400px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;*/
 }
