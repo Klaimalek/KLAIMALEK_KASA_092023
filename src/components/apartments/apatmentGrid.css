@@ -2,12 +2,12 @@
   background: #f6f6f6;
   border-radius: 25px;
   display: grid;
-  grid-template-columns: repeat(3, 340px);
-  grid-gap: 40px;
+  grid-template-columns: repeat(3, 380px);
+  grid-gap: 55px;
   place-content: center;
-  margin-left: 5%;
   padding-top: 40px;
   padding-bottom: 40px;
+  margin-left: 5%;
   margin-right: 5%;
 
 }
@@ -22,9 +22,9 @@
   }
 }
 
-@media  screen and (min-width : 767px) and (max-width : 991px) and (orientation : portrait) {
+@media  screen and (min-width : 767px) and (max-width : 1400px)  {
   .cards{
-   
+
     display: flex;
     flex-wrap: wrap;
   

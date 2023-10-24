@@ -49,8 +49,10 @@ return (<Error/>);
    
   return (
     <div className="container-accommoadtion">
-      <Navbar />
-      <div className="pictures-carousel">
+      <div className='navbar-accommodation'>
+        <Navbar />
+      </div>
+      <div className="picturess-carousel">
       <Carousel pictures ={pictures}/>
       </div>
       <div className="accommodation.title"></div>

@@ -10,8 +10,12 @@ const About = () => {
   return (
     <div className="container-about">
       
-        <Navbar />
-        <Banner pictureHome={bannerApropos} messageHome="" />
+        <div className='navbar-about'>
+          <Navbar />
+        </div>
+        <div className='banner-about'>
+          <Banner pictureHome={bannerApropos} messageHome="" />
+        </div>
        <div className='collapse-about'>
          <Collapse title = {"Fiabilité"} content={"Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes."}/>
          <Collapse title = {"Respect"} content={"La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme."}/>

@@ -1,15 +1,26 @@
-.container-about{
-  padding-left: 5%;
-  padding-right: 5%;
+.banner-about{
+
+margin-left: 3%;
+margin-right: 3%;
+}
+.navbar-about{
+  margin-left: 3%;
+margin-right: 3%;
 }
 .collapse-about {
-  margin-bottom: 30px;
-  margin-top: 30px;
+  
+     margin-top: 30px;
+     width: 71%;
+     margin-left: 12%;
+     
+     display: flex;
+     flex-direction: column;
+     
 }
 
 @media  (min-width : 651px) and (max-width : 1200px)  {
     .container-about {
-    padding-left: 5%;
-    padding-right: 5%;
+      margin-left: 3%;
+      margin-right: 3%;
   }
 }

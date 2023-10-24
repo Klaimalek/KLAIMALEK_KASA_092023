@@ -5,6 +5,7 @@
 }
 .card-link{
     text-decoration: none;
+
 }
 .card__overly{
     box-shadow: inset -1px -81px 84px -37px #000;
@@ -23,13 +24,13 @@
     position: relative;
          color: #ffffff;
          margin-left: 18px;
-         bottom:54px;
+         bottom:70px;
          font-family: 'Montserrat', sans-serif;
          font-size: 18px;
          
         
 }
-@media  screen and (min-width : 767px) and (max-width : 991px) and (orientation : portrait) {
+@media  screen and (min-width : 767px) and (max-width : 1400px) {
     .card{
         width: 43%;
     }

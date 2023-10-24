@@ -6,7 +6,8 @@
   color: rgba(255, 96, 96, 1);
 }
 .nabvar-page-error{
-  padding-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .number-404-message {
   font-size: x-large;
@@ -16,9 +17,18 @@
 .number-404 {
   font-weight: 700;
   font-size: 288px;
-
+  margin: 0px;
+ 
 }
+
+
+
 .message-erreur{
+  color: #ff6060;
+  font-size: 36px;
+  font-weight: 500;
+  align-self: center;
+  margin: 0;
  white-space: normal;
 }
 .lien {
@@ -29,12 +39,12 @@
   margin-bottom: 35px;
 }
 
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 767px)  {
 
   .number-404 {
-  margin-bottom: 150px;
-  margin-top: 100px;
-    font-size: 88px;
+    margin-bottom: 150px;
+    margin-top: 44px;
+    font-size: 100px;
   }
   
   .lien {
