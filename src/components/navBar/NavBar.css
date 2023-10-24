@@ -35,15 +35,28 @@
 .lien-navbar :hover{
   text-decoration: underline;
 }
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 767px)  {
 .list-navbar{
   font-size: 15px;
-  gap: 12px;
+  gap: 11px;
   
   text-transform: uppercase;
 }
 .logo {
   width: 125px;
+  
+}
+}
+@media screen and (max-width: 370px)  {
+  .list-navbar{
+    font-size: 15px;
+    gap: 9px;
+
+    
+}
+.logo-navbar {
+  width: 20%;
+
   
 }
 }

@@ -11,9 +11,10 @@ function Error() {
          
           <div className="number-404-message">
             <h1 className="number-404">404</h1>
-            <p className="message-erreur">
-              Oups! La page que vous demandez n'existe pas.
-            </p>
+            <div className="message-erreur">
+            <p className="message-error-1">Oups! La page que&nbsp;</p>
+            <p className="message-error-2">vous demandez n'existe pas.</p>
+            </div>
           </div>
           <Link to ="/" className="lien">
               <div className="text"> Retourner sur la page d’accueil</div>

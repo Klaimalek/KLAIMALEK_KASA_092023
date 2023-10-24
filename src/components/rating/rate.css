@@ -10,10 +10,10 @@ justify-content: right;
 margin-top: 20px;
 
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
     .star{
-        margin-left: 5px;
-        height: 32px;
+        width: 20px;
+         height: 25px;
     }
     
 }

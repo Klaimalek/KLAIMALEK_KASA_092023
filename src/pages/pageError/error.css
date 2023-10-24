@@ -24,26 +24,25 @@
 
 
 .message-erreur{
-
   font-size: 36px;
   font-weight: 500;
-  align-self: center;
-  margin: 0;
- white-space: normal;
+  display: flex;
+  
 }
+
+
 .lien {
   display: flex;
   color: #ff6060;
   margin-top: 50px;
   font-size: large;
-  margin-bottom: 35px;
+  margin-bottom: 60px;
 }
 
-@media screen and (max-width: 767px)  {
+@media screen and (max-width: 768px)  {
   .number-404-message {
     margin-left: 30px;
     margin-right: 30px;
-  
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -58,15 +57,22 @@
     margin-top: 100px;
   }
   .message-erreur{
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 18px;
+    flex-direction: column;
   
-    margin-left: 5%;
-    margin-right: 5%;
   }
+  .message-error-2{
+
+    width: 100%;
+    margin: 0;
+  
+  
+  }
+
 }
 
-@media  screen and (min-width : 767px) and (max-width : 1023px) {
+
+@media  screen and (min-width : 768px) and (max-width : 3000px) {
    
   .page-erreur {
     padding-left: 5%;
@@ -84,7 +90,12 @@
       font-size: 200px;
       font-weight: 700;
     }
-  
+    .message-erreur{
+      font-size:30px;
+    
+    
+    }
+    
     .nabvar-page-error{
       padding-left: 5%;
       padding-right:5% ;
